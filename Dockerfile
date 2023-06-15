@@ -6,3 +6,4 @@ COPY target/java-test.war /usr/local/tomcat/webapps/
 
 # Expose the Tomcat port
 EXPOSE 8080
+CMD ["catalina.sh","run"]
